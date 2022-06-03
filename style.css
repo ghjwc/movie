@@ -1,0 +1,133 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'sub1';
+    src: url(CHAMAN.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family: 'sub2';
+    src: url(COTILLIO.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'movieTitle';
+    src: url(BebasNeue-Regular.ttf) format('truetype');
+}
+
+#header {
+    margin: 0 auto;
+    padding: 3rem 0 3rem 0;
+    text-align: center;
+}
+
+#header p {
+    margin: 0px 0px 0px 0px;
+    line-height: 90%;
+}
+
+.sub1 {
+    font-size: 5rem;
+    font-family: 'sub1';
+}
+
+.sub2 {
+    font-size: 4rem;
+    font-family: 'sub2';
+}
+
+
+
+
+#menu {
+    margin: 0 auto;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    width: fit-content;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    background-color: #eeeeee;
+}
+
+#menu ul li {
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+}
+
+#menu ul li:nth-child(1) {
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+
+
+#video {
+    margin: 3rem auto;
+    padding: 3rem;
+    text-align: center;
+    background-color: black;
+}
+
+#video iframe {
+    margin: 0 auto;
+}
+
+#video p {
+    margin: 0;
+    color: white;
+}
+
+#video p:last-child {
+    margin: 1rem auto;
+    padding: 2rem;
+    width: fit-content;
+    font-family: 'movieTitle';
+    font-size: 3rem;
+    color: white;
+    border: 0.1rem solid white;
+}
+
+
+
+#movies {
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+.movieList {
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 124rem;
+    background-color: aqua;
+}
+
+.movieList img {
+    width: 20rem;
+}
+
+.frame {
+    margin-right: 1rem;
+}
